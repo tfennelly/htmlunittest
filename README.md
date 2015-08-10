@@ -10,7 +10,7 @@ things work differently for different version of HtmlUnit.
 #HtmlUnit v 2.6 (same as Jenkins core)
  
 With `BrowserVersion.FIREFOX_2` (as used by `JenkinsRule`) or `BrowserVersion.FIREFOX_3` we get the following errors. This is the same as
-I saw with Jenkins core and the Gus' new code.
+I saw with Jenkins core and Gus' new code.
 
 
 ```
@@ -35,5 +35,5 @@ function (a, b) {
 
 #HtmlUnit v 2.18 (latest)
 
-With `BrowserVersion.FIREFOX_38` or `BrowserVersion.CHROME`: Load fine !!!! There are a few CSS warnings, but it
+With `BrowserVersion.FIREFOX_38` or `BrowserVersion.CHROME`: Loads fine !!!! There are a few CSS warnings, but it
 doesn't totally bomb.
